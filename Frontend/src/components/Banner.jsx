@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../../public/Banner.avif'
+
 
 const Banner = () => {
   return (
@@ -30,7 +30,7 @@ const Banner = () => {
              <button className="btn mt-6 btn-secondary">Get Started</button>
            </div>
            <div className=" order-1 w-full md:w-1/2">
-               <img src={banner} className='w-82 h-82' alt=""/>
+               <img src="/Banner.avif" alt="Banner" className='w-82 h-82'/>
            </div>
         
        </div> 
