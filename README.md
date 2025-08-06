@@ -1,28 +1,23 @@
 # 📚 BookStore Website (MERN Stack)
 
-A fully responsive BookStore website built using the **MERN Stack (MongoDB, Express, React, Node.js)**. The application allows users to browse available books, log in or register, add books to their cart, and explore course-related materials. Admin users can also manage book-related data via the backend.
+A basic website built using the **MERN stack** that allows users to view books and course-related content. The site displays books in different sections using reusable React components.
 
 ---
 
 ## 🔍 Features
 
-- 🖼️ Banner, Cards, and Course UI components for an engaging experience
-- 🔐 User Authentication (Login, Signup, Logout) using JWT
-- 📚 Explore books and courses
-- 🛒 Add books to cart
-- 📦 Backend integration with MongoDB for storing book and user data
-- ⚙️ Admin features to manage books
-- 🧾 Component-based React frontend with reusable UI blocks
+- View a list of books and courses
+- Clean and responsive user interface
+- Component-based structure using React
+- Book data served through Express backend and MongoDB
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Frontend:** React, JSX, CSS
+- **Frontend:** React (JSX), CSS
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Authentication:** JWT (JSON Web Token)
-- **Version Control:** Git, GitHub
 
 ---
 
@@ -54,7 +49,6 @@ Create a .env file inside the Backend folder with the following:
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
 ```
 Start the backend server:
 ```bash
@@ -63,7 +57,7 @@ npm start
 
 ### 3. Frontend Setup
 ```bash
-cd ../Frontend
+cd Frontend
 npm install
 npm run dev
 ```
